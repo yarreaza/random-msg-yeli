@@ -1,0 +1,27 @@
+{
+  "name": "random-msg-yeli",
+  "version": "1.0.0",
+  "description": "Mensaje Random Yeli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Yelitza Arreaza <arrreazay@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yarreaza/random-msg-yeli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yarreaza/random-msg-yeli/issues"
+  },
+  "homepage": "https://github.com/yarreaza/random-msg-yeli#readme",
+  "bin": {
+    "random-msg-yeli": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "g": "^2.0.1"
+  }
+}
